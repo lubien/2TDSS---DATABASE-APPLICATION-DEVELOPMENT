@@ -9,7 +9,7 @@ create table tab_funcionario
 	 vl_salario_atual number);
 
 insert into tab_funcionario values (1,'Rogerio da Silva','FB973264',to_date('01/04/1999','dd/mm/yyyy'), null, 15750);
-insert into tab_funcionario values (2,'Fátima Bernardes','8135681135',to_date('02/07/2001','dd/mm/yyyy'), null, 4000);
+insert into tab_funcionario values (2,'FÃ¡tima Bernardes','8135681135',to_date('02/07/2001','dd/mm/yyyy'), null, 4000);
 insert into tab_funcionario values (3,'Harry Potter','1518786545',to_date('01/04/2002','dd/mm/yyyy'), null, 4512);
 insert into tab_funcionario values (4,'Reinaldo de Andrade','64684121554',to_date('07/05/2010','dd/mm/yyyy'), null, 8458);
 insert into tab_funcionario values (5,'Vanessa Garcia','AX8415117',to_date('05/10/1984','dd/mm/yyyy'), to_date('14/02/2017','dd/mm/yyyy'), 12458);
